@@ -1,4 +1,3 @@
-
 a:link {
     text-decoration: none;
 }
@@ -14,84 +13,121 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-ul.link-list {
+
+.link-list {
     list-style-type: none;
     margin-top: -15px;
     padding: 0;
-  
-}
-a.studio{
-    line-height: 1.6;
-    font-weight: bold;
-}
-a.portfolio{
-    line-height: 1.6;
-    color: black;
-    font-weight: bold;
-}
-a.contacts{
-    line-height: 1.6;
-    color: black;
-    font-weight: bold;
-}
-ul.infocontact-list {
-    list-style-type: none;
-    margin-top: -15px;
-    padding: 0;
-}
-a.website{
-    color: black;
-    font-weight: normal;
-}
-a.number{
-    color: black;
-    font-weight: normal;
-}
-.h2{
-    text-align: center;
-    border: 3px solid rgb(58, 59, 59);
-    background-color:rgb(54, 53, 75);
-    color: white;
-    font-size:30px;
-    border-width: 3px 0px 50px 0px;
-    
-}
-nav.oderservice-nav{
-margin-top: -45px;
-}
-.btn{
-    background-color: #615fcf;
-        border: none;
-        border-radius: 4px;
-        color: white;
-        padding: 1px 5px 0px 5px;
-        text-align: center;
-       /* text-decoration: none;*/
-        cursor: pointer;
-}
-ul.orderservice-lists{
-list-style-type: none;
-        padding: 0;
 
 }
-.para{
-text-align: center;
+
+.studio {
+    line-height: 1.6;
+    font-weight: bold;
 }
-ul.img-list{
+.studio:hover{
+    color: red;
+}
+
+.portfolio {
+    line-height: 1.6;
+    color: black;
+    font-weight: bold;
+}
+.portfolio:hover{
+    color: red;
+}
+
+.contacts {
+    line-height: 1.6;
+    color: black;
+    font-weight: bold;
+}
+.contacts:hover{
+    color: red;
+}
+
+.infocontact-list {
+    list-style-type: none;
+    margin-top: -15px;
+    padding: 0;
+}
+
+.website {
+    color: black;
+    font-weight: normal;
+}
+.website:hover{
+    color: blue;
+}
+
+.number {
+    color: black;
+    font-weight: normal;
+}
+.number:hover{
+    color: blue;
+}
+
+.h2 {
+    text-align: center;
+    border: 3px solid rgb(58, 59, 59);
+    background-color: rgb(54, 53, 75);
+    color: white;
+    font-size: 30px;
+    border-width: 3px 0px 50px 0px;
+
+}
+.header-web:hover{
+       color: red;
+}
+.oderservice-nav {
+    margin-top: -45px;
+}
+
+.btn {
+    background-color: #615fcf;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 1px 5px 0px 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #26bcee;
+    color: white;
+}
+
+.orderservice-lists {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.para {
+    text-align: center;
+}
+
+.img-list {
     list-style-type: none;
     padding: 0px;
 
 }
 
- nav.footer-nav{
-        border: 3px solid rgb(58, 59, 59);
-        background-color: rgb(54, 53, 75);
-        color: white;
-       border-width: 0px 0px 0px 0px;
- }
- img.d1{
+.footer-nav {
+    border: 3px solid rgb(58, 59, 59);
+    background-color: rgb(54, 53, 75);
+    color: white;
+    border-width: 0px 0px 0px 0px;
+}
+.footer-web:hover{
+    color: red;
+}
+img.d1 {
     margin-left: -10px;
- }
- p.d1{
+}
+
+p.d1 {
     margin-left: -5px;
- }
+}
